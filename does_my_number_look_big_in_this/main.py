@@ -34,9 +34,9 @@ def narcissistic(value: int) -> bool:
         return True
     return False
 
+
 # This is nicer solution:
 # return value == sum(int(x) ** len(str(value)) for x in str(value))
-
 
 
 def test_function(f: Callable) -> None:
